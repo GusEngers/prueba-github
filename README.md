@@ -47,7 +47,7 @@ git log : vemos todos los commits realizados. Para salir de este comando, presio
 
 git log --oneline : vemos todos los commits realizados en una sola línea. Para salir de este comando, presionar la tecla q.
 
-git commit --amend --no-edit : permite modificar el último commit realizado. Es importante tener en cuenta que si ya se subió el commit a la rama remota, no se puede modificar. En ese caso, se debe crear un nuevo commit. Hiciste commit y te olvidaste algo e hiciste otro commit.
+git commit --amend --no-edit : permite modificar el último commit realizado mientras que no hayas hecho un push. Es importante tener en cuenta que si ya se subió el commit a la rama remota, no se puede modificar. En ese caso, se debe crear un nuevo commit. Hiciste commit y te olvidaste algo e hiciste otro commit.
 
 git commit --amend -m "Mensaje del commit" : permite modificar el último commit realizado.
 
