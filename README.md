@@ -40,3 +40,15 @@ ahora se vean reflejados en la rama main.
 
 Aclaración: tener en cuenta que el orden de los comandos puede verse
 afectado dependiendo de lo que se quiera realizar.
+
+<!-- GIT COMMANDS: COMMIT AMEND -->
+
+git commit --amend --no-edit : permite modificar el último commit realizado. Es importante tener en cuenta que si ya se subió el commit a la rama remota, no se puede modificar. En ese caso, se debe crear un nuevo commit. Hiciste commit y te olvidaste algo e hiciste otro commit.
+
+git commit --amend -m "Mensaje del commit" : permite modificar el último commit realizado.
+
+git reset --hard HEAD~1 : permite deshacer el último commit realizado.
+
+<!-- GIT COMMANDS: MERGE -->
+
+git merge nombreRama: nos posicionamos en la rama en la que queremos mergear los cambios y ejecutamos el comando. Esto nos permite traernos los cambios de la rama especificada a la rama en la que estamos posicionados. Primero tenemos que estar posicionados en la rama en la que queremos mergear los cambios y luego ejecutar el comando.
